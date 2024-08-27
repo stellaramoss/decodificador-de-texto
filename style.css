@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Nerko+One&display=swap');
+
+:root {
+    --fonte-primaria: 'Nerko One', sans-serif;
+    --fonte-secundaria: 'Mitr', sans-serif;
+
+    --light-green: #b9e2bc;
+    --medium-light-green: #80AF81;
+    --medium-dark-green: #508D4E;
+    --dark-green: #1A5319;
+}
+
+* {
+    background-color: var(--medium-light-green);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    color: var(--dark-green);
+}
+
+.cabecalho {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.cabecalho__menu__alura {
+    margin-left: 6%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__link {
+    border: 2px solid var(--dark-green);
+    border-radius: 20px;
+    padding: 0.3% 4%;
+    background-color: var(--dark-green);
+    font-family: var(--fonte-primaria);
+    font-size: 1.8rem;
+    color: var(--light-green);
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+.campo__textarea {
+    resize: none;
+    padding: 5%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    color: var(--dark-green);
+    text-transform: lowercase;
+    background-color: var(--medium-light-green);
+    border: 2px solid var(--light-green);
+    border-radius: 20px;
+    background-color: var(--light-green);
+    outline: none;
+    width: 800px;
+    height: 360px;
+}
+
+::placeholder {
+    color: var(--dark-green);
+}
+
+.aviso {
+    margin-left: 3%;
+    font-family: var(--fonte-secundaria);
+    padding-top: 0.5%;
+}
+
+button {
+    /* margin: 1% 5%; */
+    padding: 1% 5%;
+    border: 2px solid var(--dark-green);
+    border-radius: 17px;
+    color: var(--light-green);
+    background-color: var(--dark-green);
+    font-family: 'Nerko One', sans-serif;
+    font-size: 1.5rem;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 1%;
+    gap: 100px;
+}
+
+.lado__direito {
+    display: flex;
+}
+
+.campo__mensagem {
+    resize: none;
+    text-align: center;
+    background-image: url(/assets/arte-procurando-verde.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 12%;
+    width: 80%;
+    height: 413px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    color: var(--dark-green);
+    text-transform: lowercase;
+    border: 2px solid var(--light-green);
+    border-radius: 20px;
+    background-color: var(--light-green);
+    outline: none;
+}
+
+.botao__copiar {
+    margin-left: 40%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 2%;
+    font-family: var(--fonte-secundaria);
+    color: var(--dark-green);
+}
+
+::selection {
+    background-color: var(--dark-green);
+    color: var(--light-green);
+    border-radius: 5px;
+}
+
+.informacoes {
+    margin-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: justify;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    color: var(--dark-green);
+    text-transform: lowercase;
+    background-color: var(--medium-light-green);
+    border: 2px solid var(--light-green);
+    border-radius: 20px;
+    background-color: var(--light-green);
+    outline: none;
+    width: 770px;
+    height: 360px;
+}
+
+strong {
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.rodape__about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--fonte-secundaria);
+    color: var(--dark-green);
+}

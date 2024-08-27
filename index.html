@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__alura" href="https://www.alura.com.br/">
+                <img src="./assets/logo-alura-verde.png" alt="Logo da Alura">
+            </a>
+            <a class="cabecalho__menu__link" href="index.html">Decodificador</a>
+            <a class="cabecalho__menu__link" href="about.html">Como funciona</a>
+        </nav>
+    </header>
+    <main>
+        <section class="lado__esquerdo">
+            <textarea class="campo__textarea" placeholder="Digite aqui sua mensagem"></textarea>
+            <div class="aviso">
+                    <img src="./assets/icone-aviso.png"> Apenas letras minúsculas e sem acento.
+            </div>
+            <div class="botoes">
+                <button onclick="botaoCriptografar()" class="botoes__criptografar">Criptografar</button>
+                <button onclick="botaoDescriptografar()" class="botoes__descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="lado__direito">
+            <div>
+                <textarea readonly class="campo__mensagem" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <button onclick="botaoCopiar()" class="botao__copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p>Desenvolvido por Stella Ramos</p>
+            <a href="https://github.com/stellaramoss">
+                <img src="./assets/icone-github-verde.png">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
