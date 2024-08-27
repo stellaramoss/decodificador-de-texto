@@ -7,3 +7,7 @@
 
 <a href="https://decodificador-de-texto-ruddy.vercel.app/index.html">Decodificador no Vercel</a><br>
 <a href="https://decodificador-de-texto-ruddy.vercel.app/about.html">Como funciona</a>
+
+![print-decodificador](https://github.com/user-attachments/assets/9bd743a6-d3a1-40af-81b2-2dff37b0cae1)
+
+![print-como-funciona](https://github.com/user-attachments/assets/52b3d1d6-feb4-4cab-ae06-ac8f16560e68)
